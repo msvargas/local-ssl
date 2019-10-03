@@ -4,8 +4,8 @@ var https = require('https');
 const PORT = 3000;
 
 var options = {
-    key: fs.readFileSync('../vcs.key'),
-    cert: fs.readFileSync('../vcs.crt'),
+    key: fs.readFileSync('./vcs.key'),
+    cert: fs.readFileSync('./vcs.crt'),
     passphrase: '901089033',
     requestCert: false,
     rejectUnauthorized: false

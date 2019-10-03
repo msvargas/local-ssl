@@ -1,0 +1,13 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = www.oficina.procontroles.com
+DNS.2 = oficina.procontroles.com
+DNS.3 = oficina.procontroles
+DNS.4 = www.vcs.local.com
+DNS.5 = vcs.local.com
+DNS.6 = vcs.local
+
